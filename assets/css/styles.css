@@ -5,23 +5,24 @@ img {
   margin-left: auto;
   margin-right: auto;
   /*width: 37vw;*/
-  height: 50vh;
+  height: 45vh;
   object-fit: contain;
 }
 
 body {
   background-image: url("../../assets/img/BG.png");
-  /*height: 400%;*/
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 90vw;
 }
 
 p {
   text-align: center;
   font-family: sans-serif;
   font-style: initial;
-  font-size: x-large;
+  font-size: large;
   color: var(--bs-light);
   width: auto;
   margin-left: auto;
@@ -42,5 +43,31 @@ div {
   text-align: center;
   display: block;
   margin: 0 auto;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.image-row {
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  width: 90vw;
+  height: 27vh;
+  /*aspect-ratio: 16/9;*/
+}
+
+.iframe-wrapper {
+  width: max-content;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  /*display: flex;*/
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+, IMG-SRC {
 }
 
